@@ -29,7 +29,9 @@ password is `ubuntu`.
 
 > Note: Only provision one of the following four Linux distros.  If you want to
 > configure them all then there needs to be a separate folder (working
-> directory) for each OS.
+> directory) for each OS.  By running `vagrant init`, Vagrant will create a file
+> named `Vagrantfile` in the current directory.  You can learn more about
+> Vagrant by reading it.
 
 Ubuntu 14.04
 
@@ -64,7 +66,7 @@ Now you're logged into the headless machine.
 
     vagrant destroy
 
-Learn more about vagrant by reading documentation on the [Vagrant
+Learn more about Vagrant by reading documentation on the [Vagrant
 website][vagrant].
 
 [vagrant]: https://www.vagrantup.com/
