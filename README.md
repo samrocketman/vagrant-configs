@@ -27,7 +27,7 @@ password is `ubuntu`.
 
 # Provision headless machines
 
-> Only provision one of the following four Linux distros.  If you want to
+> Note: Only provision one of the following four Linux distros.  If you want to
 > configure them all then there needs to be a separate folder (working
 > directory) for each OS.
 
@@ -55,8 +55,10 @@ RedHat Enterprise Linux 7 (CentOS 7)
 
     vagrant ssh
 
-Now you're logged into the headless machine.  Note: `vagrant` commands _must_ be
-run from the same directory in which you ran `vagrant up`.
+Now you're logged into the headless machine.
+
+> Note: `vagrant` commands _must_ be run from the same directory in which you
+> ran `vagrant up`.
 
 [vagrant]: https://www.vagrantup.com/
 [vbox]: https://www.virtualbox.org/
