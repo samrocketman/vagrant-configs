@@ -27,6 +27,10 @@ password is `ubuntu`.
 
 # Provision headless machines
 
+> Only provision one of the following four Linux distros.  If you want to
+> configure them all then there needs to be a separate folder (working
+> directory) for each OS.
+
 Ubuntu 14.04
 
     vagrant init ubuntu/precise64
