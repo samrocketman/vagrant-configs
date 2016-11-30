@@ -60,5 +60,12 @@ Now you're logged into the headless machine.
 > Note: `vagrant` commands _must_ be run from the same directory in which you
 > ran `vagrant up`.
 
+# Delete virtual machines
+
+    vagrant destroy
+
+Learn more about vagrant by reading documentation on the [Vagrant
+website][vagrant].
+
 [vagrant]: https://www.vagrantup.com/
 [vbox]: https://www.virtualbox.org/
